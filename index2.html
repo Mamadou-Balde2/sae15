@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NetLink Solutions - Experts Réseaux & Télécoms dans les Hauts-de-France</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">NetLink Solutions</div>
+            <ul>
+                <li><a href="#accueil">Accueil</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#apropos">À propos</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="accueil" class="hero">
+        <div class="hero-content">
+            <h1>Votre Expert Réseaux & Télécoms</h1>
+            <p>Solutions sur mesure pour entreprises et particuliers dans les Hauts-de-France</p>
+            <a href="#contact" class="cta-button">Demander un devis gratuit</a>
+        </div>
+    </section>
+
+    <section id="services">
+        <h2>Nos Services</h2>
+        <div class="services-grid">
+            <div class="service-card">
+                <div class="service-icon">🌐</div>
+                <h3>Installation Réseaux</h3>
+                <p>Conception et déploiement d'infrastructures réseaux performantes pour votre entreprise. Câblage structuré, Wi-Fi professionnel et configuration optimale.</p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">🛡️</div>
+                <h3>Sécurité Réseau</h3>
+                <p>Protection avancée de vos données et systèmes. Pare-feu, VPN, détection d'intrusions et audits de sécurité pour une tranquillité totale.</p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">🔧</div>
+                <h3>Maintenance & Support</h3>
+                <p>Support technique réactif et maintenance préventive. Intervention rapide, dépannage et accompagnement personnalisé 7j/7.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="apropos" class="about">
+        <h2>À Propos de NetLink Solutions</h2>
+        <div class="about-content">
+            <div class="about-text">
+                <h3>Votre partenaire technologique de confiance</h3>
+                <p>Basée dans les Hauts-de-France, <strong>NetLink Solutions</strong> accompagne les entreprises et les particuliers dans leurs projets réseaux et télécommunications depuis plus de 10 ans.</p>
+                <p>Notre équipe de techniciens certifiés met son expertise au service de votre réussite numérique. Que vous soyez une TPE, une PME ou un particulier, nous concevons des solutions adaptées à vos besoins et votre budget.</p>
+                <p>De l'installation à la maintenance en passant par la sécurisation, nous vous garantissons un service de qualité, réactif et personnalisé.</p>
+            </div>
+            <div class="stats">
+                <div class="stat-card">
+                    <div class="stat-number">500+</div>
+                    <div class="stat-label">Clients satisfaits</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">10 ans</div>
+                    <div class="stat-label">D'expérience</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">24/7</div>
+                    <div class="stat-label">Support disponible</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">100%</div>
+                    <div class="stat-label">Satisfaction</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contactez-nous</h2>
+        <div class="contact-form">
+            <div id="successMessage" class="success-message">
+                Merci ! Votre message a bien été envoyé. Nous vous répondrons dans les plus brefs délais.
+            </div>
+            <form id="contactForm">
+                <div class="form-group">
+                    <label for="type">Vous êtes :</label>
+                    <select id="type" name="type" required>
+                        <option value="">Sélectionnez...</option>
+                        <option value="entreprise">Une entreprise</option>
+                        <option value="particulier">Un particulier</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="name">Nom complet *</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email *</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="phone">Téléphone</label>
+                    <input type="tel" id="phone" name="phone">
+                </div>
+                <div class="form-group">
+                    <label for="service">Service souhaité</label>
+                    <select id="service" name="service">
+                        <option value="">Sélectionnez...</option>
+                        <option value="installation">Installation réseau</option>
+                        <option value="securite">Sécurité réseau</option>
+                        <option value="maintenance">Maintenance & Support</option>
+                        <option value="autre">Autre / Conseil</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message *</label>
+                    <textarea id="message" name="message" required></textarea>
+                </div>
+                <button type="submit" class="submit-btn">Envoyer le message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-info">
+                <strong>NetLink Solutions</strong> - Expert Réseaux & Télécoms<br>
+                Hauts-de-France | Interventions sur toute la région
+            </div>
+            <p>&copy; 2026 NetLink Solutions. Tous droits réservés.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
